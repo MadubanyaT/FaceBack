@@ -1,0 +1,31 @@
+﻿
+@{
+	ViewBag.Title = "Faceback- log in or sign up";
+}
+
+<div class="row con">
+	<div class="col-md-6 text-start im-h">
+		<img class="img-con" src="/images/FaceBack.png" alt="Faceback" />
+		<h2>Facebook helps you connect and share with the people in your life.</h2>
+	</div>
+	<div class="col-md-6">
+		<form class="frm bg-light rounded-2 shadow" method="post">
+			<div class=" div-f m-3">
+				<input class="form-control" placeholder="Email address or phone number" />
+			</div>
+			<div class="div-f m-3">
+				<input class="form-control"  placeholder="Password"/>
+			</div>
+			<div class="m-3">
+				<button class="b-log rounded-2">Log in</button>
+			</div>
+			<a asp-action="" class="m-3 forp">Forgotten password?</a>
+			<div class="mx-3"><hr /></div>
+			<div class="m-3 bc-div">
+				<button class="b-new rounded-2">Create new account</button>
+			</div>
+		</form>
+		<div class="cp"><a asp-action="" class="text-black fw-bold text-decoration-none">Create a Page </a>for a celebrity, brand or business.</div>
+	</div>
+
+</div>

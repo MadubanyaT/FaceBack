@@ -1,0 +1,77 @@
+﻿body {
+    background-color: #c9ccd1;
+}
+h2{
+    font-size:24px;
+}
+.con{
+    position:absolute;
+    top:150px;
+    right: 20px;
+}
+
+.img-con {
+    position: relative;
+}
+
+.cp {
+    font-size: 14px;
+    width: 360px;
+    text-align: center;
+}
+
+.frm {
+    text-align: center;
+    width: 360px;
+    padding-top: 1.40rem;
+    box-shadow: #c9ccd1;
+}
+
+.div-f {
+   width: 332px;
+}
+
+.b-log {
+    background-color: #1877f2;
+    border:none;
+    font-size: 20px;
+    color: white;
+    width: 332px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.bc-div {
+    text-align: center;
+    padding-bottom: 1.80rem;
+}
+
+hr{
+    width: 332px;
+}
+
+.b-new {
+    color: white;
+    padding-top: 20px 0px;
+    border:none;
+    width: 220px;
+    text-align: center;
+    background-color: #36a420;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.im-h{
+    margin-top:50px;
+}
+
+.fogp{
+    text-decoration: none;
+}
+
+.forp:hover{
+    text-decoration:underline;
+}
