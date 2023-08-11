@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pEtjIrMJUyocMu8To+pJ2MiLQbcMVPcSiIV8JF3LfOTgxNRsXxddXApzr1Am0hHKDKSkh5w2R9Z1e0A7V7uPHg==",
+  "dgSpecHash": "65HWP8p+H9dasF3WseKk0aORmbwM6cNjh4H5RFWz+axNy8qVPejaOIcZYoKdugu2pqWfhFXdPR+82bhv/iIulg==",
   "success": true,
-  "projectFilePath": "D:\\Work\\FaceBack\\FaceBack\\FaceBack.csproj",
+  "projectFilePath": "D:\\Work\\Projects\\FaceBack\\FaceBack\\FaceBack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DeviceParticle\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DeviceParticle\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

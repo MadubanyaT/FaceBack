@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\FaceBack\\FaceBack\\FaceBack.csproj": {}
+    "D:\\Work\\Projects\\FaceBack\\FaceBack\\FaceBack.csproj": {}
   },
   "projects": {
-    "D:\\Work\\FaceBack\\FaceBack\\FaceBack.csproj": {
+    "D:\\Work\\Projects\\FaceBack\\FaceBack\\FaceBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\FaceBack\\FaceBack\\FaceBack.csproj",
+        "projectUniqueName": "D:\\Work\\Projects\\FaceBack\\FaceBack\\FaceBack.csproj",
         "projectName": "FaceBack",
-        "projectPath": "D:\\Work\\FaceBack\\FaceBack\\FaceBack.csproj",
+        "projectPath": "D:\\Work\\Projects\\FaceBack\\FaceBack\\FaceBack.csproj",
         "packagesPath": "C:\\Users\\DeviceParticle\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\FaceBack\\FaceBack\\obj\\",
+        "outputPath": "D:\\Work\\Projects\\FaceBack\\FaceBack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
