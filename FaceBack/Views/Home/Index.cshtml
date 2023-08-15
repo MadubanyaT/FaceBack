@@ -1,6 +1,6 @@
 ﻿
 @{
-	ViewBag.Title = "Faceback- log in or sign up";
+	ViewBag.Title = "Faceback log in or sign up";
 }
 
 <div class="row con">
@@ -10,6 +10,7 @@
 	</div>
 	<div class="col-md-6">
 		<form class="frm bg-light rounded-2 shadow" method="post">
+			<p class="text-center">Log in to Facebook</p>
 			<div class=" div-f m-3">
 				<input class="form-control" placeholder="Email address or phone number" />
 			</div>
@@ -17,12 +18,12 @@
 				<input class="form-control"  placeholder="Password"/>
 			</div>
 			<div class="m-3">
-				<button class="b-log rounded-2">Log in</button>
+				<button asp-controller="Account" asp-action="Login" class="b-log rounded-2">Log in</button>
 			</div>
-			<a asp-action="" class="m-3 forp">Forgotten password?</a>
+			<a asp-controller="Account" asp-action="ForgotPassword" class="m-3 text-decoration-none">Forgotten password?</a>
 			<div class="mx-3"><hr /></div>
 			<div class="m-3 bc-div">
-				<button class="b-new rounded-2">Create new account</button>
+				<button asp-controller="Account" asp-action="CreateAccount" class="b-new rounded-2">Create new account</button>
 			</div>
 		</form>
 		<div class="cp"><a asp-action="" class="text-black fw-bold text-decoration-none">Create a Page </a>for a celebrity, brand or business.</div>

@@ -20,11 +20,21 @@ h2{
     text-align: center;
 }
 
+.frm-2 {
+    top: 30%;
+    text-align: center;
+    width: 360px;
+    padding-top: 1rem;
+    box-shadow: #c9ccd1;
+    padding-bottom: 1.10rem;
+}
+
 .frm {
     text-align: center;
     width: 360px;
     padding-top: 1.40rem;
     box-shadow: #c9ccd1;
+    padding-bottom: 1.40rem;
 }
 
 .div-f {
@@ -74,4 +84,12 @@ hr{
 
 .forp:hover{
     text-decoration:underline;
+}
+
+.hr-ln{
+    width: 364px;
+}
+
+.inp-fs{
+    font-size: 12px;
 }

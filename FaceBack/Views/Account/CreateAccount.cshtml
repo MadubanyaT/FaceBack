@@ -1,0 +1,42 @@
+﻿@{
+	ViewBag.Title = "Faceback log in or sign up";
+}
+<div align="center">
+<form class="frm-2 bg-light rounded-2 shadow" method="post">
+	<div class="text-start px-2">
+		<h1>Sign Up</h1>
+		<p>It's quick and easy</p>
+	</div>
+	<div class="hr-ln"><hr /></div>
+	<div class="row px-2">
+		<div class="col-6">
+			<input class="form-control" placeholder="First name" />
+		</div>
+		<div class="col-6">
+			<input class="form-control" placeholder="Surname" />
+		</div>
+	</div>
+	<div class="m-2">
+		<input class="form-control" placeholder="Email address or phone number" />
+	</div>
+	<div class="m-2">
+		<input class="form-control" placeholder="New password" />
+	</div>
+	<div class="row m-2">
+		<span class="inp-fs text-start px-2">Date of Birth</span>
+		<span class="col-4">
+			<select></select>
+		</span>
+		<span class="col-4">
+			<select></select>
+		</span>
+		<span class="col-4">
+			<select></select>
+		</span>
+	</div>
+
+	<div class="m-3 bc-div">
+		<button asp-controller="Account" asp-action="CreateAccount" class="b-new rounded-2">Create new account</button>
+	</div>
+</form>
+</div>
