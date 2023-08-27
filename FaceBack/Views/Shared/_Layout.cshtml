@@ -2,19 +2,25 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.Title</title>
 
-    <!--Bootstrap-->
-    <link  rel="stylesheet" asp-href-include="/lib/bootstrap/css/bootstrap.min.css" />
-    <!--font-awesome-->
-    <link rel="stylesheet" asp-href-include="/lib/font-awesome/css/all.min.css" />
-    <!--custom-->
-    <link rel="stylesheet" asp-href-include="/custom/css/custom.css" />
+	<!--Bootstrap-->
+	<link rel="stylesheet" asp-href-include="/lib/bootstrap/css/bootstrap.min.css" />
+	<!--font-awesome-->
+	<link rel="stylesheet" asp-href-include="/lib/font-awesome/css/all.min.css" />
+	<!--custom-->
+	<link rel="stylesheet" asp-href-include="/custom/css/custom.css" />
 </head>
 <body>
-    <div class="container">
-        @RenderBody()
-    </div>
+	<header>
+	</header>
+	<main>
+		@RenderBody()
+	</main>
+
+	<p class="footer">&copy; @DateTime.Now.Year - Q</p>
+
+	<script asp-src-include="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

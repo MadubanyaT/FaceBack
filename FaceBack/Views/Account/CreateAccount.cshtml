@@ -2,41 +2,152 @@
 	ViewBag.Title = "Faceback log in or sign up";
 }
 <div align="center">
-<form class="frm-2 bg-light rounded-2 shadow" method="post">
-	<div class="text-start px-2">
-		<h1>Sign Up</h1>
-		<p>It's quick and easy</p>
-	</div>
-	<div class="hr-ln"><hr /></div>
-	<div class="row px-2">
-		<div class="col-6">
-			<input class="form-control" placeholder="First name" />
+	<form class="frm-2 bg-light rounded-2 shadow" method="post">
+		<div class="text-start px-2">
+			<h1>Sign Up</h1>
+			<p>It's quick and easy</p>
 		</div>
-		<div class="col-6">
-			<input class="form-control" placeholder="Surname" />
+		<hr style="width: 360px;"/>
+		<div class="row px-2">
+			<div class="col-6">
+				<input class="form-control" placeholder="First name" />
+			</div>
+			<div class="col-6">
+				<input class="form-control" placeholder="Surname" />
+			</div>
 		</div>
-	</div>
-	<div class="m-2">
-		<input class="form-control" placeholder="Email address or phone number" />
-	</div>
-	<div class="m-2">
-		<input class="form-control" placeholder="New password" />
-	</div>
-	<div class="row m-2">
-		<span class="inp-fs text-start px-2">Date of Birth</span>
-		<span class="col-4">
-			<select></select>
-		</span>
-		<span class="col-4">
-			<select></select>
-		</span>
-		<span class="col-4">
-			<select></select>
-		</span>
-	</div>
+		<div class="m-2">
+			<input class="form-control" placeholder="Email address or phone number" />
+		</div>
+		<div class="m-2">
+			<input class="form-control" placeholder="New password" />
+		</div>
 
-	<div class="m-3 bc-div">
-		<button asp-controller="Account" asp-action="CreateAccount" class="b-new rounded-2">Create new account</button>
-	</div>
-</form>
+		<div class="row mb-2">
+			<span class="inp-fs text-start mx-2 text-secondary" style="width:360px">Date of Birth</span>
+			<div class="col-3">
+				<select class="slt px-2" name="pickup_day">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option selected>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+					<option>31</option>
+				</select>
+			</div>
+			<div class="col-5">
+				<select class="px-4" name="pickup_month">
+					<option>January</option>
+					<option>February</option>
+					<option>March</option>
+					<option>April</option>
+					<option>May</option>
+					<option>June</option>
+					<option>July</option>
+					<option selected>August</option>
+					<option>September</option>
+					<option>October</option>
+					<option>November</option>
+					<option>December</option>
+				</select>
+			</div>
+			<div class="col-4">
+				<select class="px-3" name="pickup_year">
+					<option selected>2023</option>
+					<option value="2022">2022</option>
+					<option value="2021">2021</option>
+					<option value="2020">2020</option>
+					<option value="2019">2019</option>
+					<option value="2018">2018</option>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2012">2012</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2007">2007</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+					<option value="2003">2003</option>
+					<option value="2002">2002</option>
+					<option value="2001">2001</option>
+					<option value="2000">2000</option>
+					<option value="1999">1999</option>
+					<option value="1998">1998</option>
+					<option value="1997">1997</option>
+					<option value="1996">1996</option>
+					<option value="1995">1995</option>
+					<option value="1994">1994</option>
+					<option value="1993">1993</option>
+					<option value="1992">1992</option>
+					<option value="1991">1991</option>
+					<option value="1990">1990</option>
+					<option value="1989">1989</option>
+					<option value="1988">1988</option>
+					<option value="1987">1987</option>
+					<option value="1986">1986</option>
+					<option value="1985">1985</option>
+					<option value="1984">1984</option>
+					<option value="1983">1983</option>
+					<option value="1982">1982</option>
+					<option value="1981">1981</option>
+				</select>
+			</div>
+		</div>
+		<div class="row mb-2">
+			<span class="inp-fs mx-2 text-start text-secondary">Gender</span>
+			<span class="col-5">
+				<label class="form-check-label" for="flexRadioDefault1">
+					Female
+				</label>
+				<input class="form-check-input mx-4" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+			</span>
+			<span class="col-3">
+				<label class="form-check-label" for="flexRadioDefault1">
+					Male
+				</label>
+				<input class="form-check-input mx-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+			</span>
+			<span class="col-4">
+				<label class="form-check-label" for="flexRadioDefault1">
+					Custom
+				</label>
+				<input class="form-check-input mx-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+			</span>
+		</div>
+
+		<div class="mt-3 bc-div">
+			<button asp-controller="Account" asp-action="CreateAccount" class="b-new rounded-2">Create new account</button>
+		</div>
+	</form>
 </div>
