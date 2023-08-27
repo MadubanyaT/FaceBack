@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\images\\FaceBack.png"
     },
     {
+      "Id": "D:\\Work\\Projects\\FaceBack\\FaceBack\\wwwroot\\images\\Under Construction.jpg",
+      "PackagePath": "staticwebassets\\images\\Under Construction.jpg"
+    },
+    {
       "Id": "D:\\Work\\Projects\\FaceBack\\FaceBack\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PK99WU2w/xqKDlRfENA/jc88UaYSXg6hmZN1P+Ao0og=",
+  "Hash": "SVokLwoQp2CJjMONjtY8lfHmepoCiWK9/43oWniE5A0=",
   "Source": "FaceBack",
   "BasePath": "_content/FaceBack",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\FaceBack.png"
+    },
+    {
+      "Identity": "D:\\Work\\Projects\\FaceBack\\FaceBack\\wwwroot\\images\\Under Construction.jpg",
+      "SourceId": "FaceBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work\\Projects\\FaceBack\\FaceBack\\wwwroot\\",
+      "BasePath": "_content/FaceBack",
+      "RelativePath": "images/Under Construction.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Under Construction.jpg"
     },
     {
       "Identity": "D:\\Work\\Projects\\FaceBack\\FaceBack\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",

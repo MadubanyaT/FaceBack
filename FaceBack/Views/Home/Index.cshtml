@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
 	ViewBag.Title = "Faceback log in or sign up";
 }
 
@@ -22,11 +21,11 @@
 			</div>
 			<a asp-controller="Account" asp-action="ForgotPassword" class="m-3 text-decoration-none">Forgotten password?</a>
 			<div class="mx-3"><hr /></div>
-			<div class="m-3 bc-div">
+			<div class="mt-3 bc-div">
 				<button asp-controller="Account" asp-action="CreateAccount" class="b-new rounded-2">Create new account</button>
 			</div>
 		</form>
-		<div class="cp"><a asp-action="" class="text-black fw-bold text-decoration-none">Create a Page </a>for a celebrity, brand or business.</div>
+		<div class="cp"><a asp-controller="Account" asp-action="CreatePage" class="text-black fw-bold text-decoration-none">Create a Page </a>for a celebrity, brand or business.</div>
 	</div>
 
 </div>
